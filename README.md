@@ -22,5 +22,5 @@ known areas for improvement:
 - remove the double hits for NB vs SB, and better handle absence of train direction
 - general improved extraction of data from the tweets (thoughts?)
 - use the timestamp in the tweet text rather than from the tweet object
-
-
+- the timestamps look like they are occasionally coming out AM when they should be PM
+- for an actual commuter, what matters is how a NB morning leg and SB evening leg does (vs. NB in general). I need to think of a clean way of structuring this vs. just looking at graphs to make inferences
